@@ -56,7 +56,25 @@ a.header-titles:hover{
     height: 2rem; 
     background: #C4C4C4;
 }
-#ChooseBlock-bt{
+#ChooseBlock-bt-A{
+    width: min-content; 
+    background-color: #EF6568; 
+    border-color: #EF6568; 
+    color: white;
+}
+#ChooseBlock-bt-B{
+    width: min-content; 
+    background-color: #EF6568; 
+    border-color: #EF6568; 
+    color: white;
+}
+#ChooseBlock-bt-C{
+    width: min-content; 
+    background-color: #EF6568; 
+    border-color: #EF6568; 
+    color: white;
+}
+#ChooseBlock-bt-D{
     width: min-content; 
     background-color: #EF6568; 
     border-color: #EF6568; 
