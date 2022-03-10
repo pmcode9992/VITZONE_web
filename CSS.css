@@ -91,6 +91,10 @@ a.header-titles:hover{
     margin-left: 4rem;
 } 
 
+#label-choose-block{
+    margin-bottom: 1rem;
+}
+
 .glow-on-hover {
     width: 110px;
     height: 37px;
