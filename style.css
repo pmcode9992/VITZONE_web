@@ -7,6 +7,10 @@ header{
     width: 100%;
     height: 85px;
 }
+main{
+    margin-right: 104px;
+    margin-top: 96px;
+}
 .cards{
     display: flex;
     flex-direction: row;
