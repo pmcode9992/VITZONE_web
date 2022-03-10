@@ -4,9 +4,79 @@
 }
 body{
     margin: 0px;
+    background-color: #E5E5E5;
+}
+header{
+    width: 100%;
+}
+#navbarSupportedContent{
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: -8px;
+}
+#back{
+    margin-left: 75vw;
+}
+#vitzone{
+    margin-left: 7vw;
 }
 ul{
     display: flex !important;
     flex-direction: row !important;
+}
 
+h1{
+    margin-left: 30px;
+    margin-top: 4vw;
+    margin-bottom: 2vw;
+    font-weight: 900;
+}
+.cards{
+    font-weight: 700;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    row-gap: 30px;
+}
+h3{
+    display: inline-flex;
+    min-width: 13vw;
+    font-size: 24px;
+}
+.roomate{
+    flex-basis: 40vw;
+    background: rgba(56, 87, 245, 0.25);
+    border: 9px solid #FFFFFF;
+    border-radius: 33px;
+    min-width: max-content ;
+}
+.rcard-header{
+    padding-left: 0px;
+    z-index: 2;
+}
+.card-body{
+    margin-top: -15px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 30px;
+    background: #FCFCFC;
+    border-radius: 18px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px !important;
+}
+.info{
+    padding: 4px;
+    width: 15vw;
+    background: #FFF2F2;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 30px;
+    display: inline-flex;
+}
+.card{
+    padding-top: 10px;
+    background: rgba(56, 87, 245, 0.25);
+    border: 0px;
+    border-radius: 0px;
 }
