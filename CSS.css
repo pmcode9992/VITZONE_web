@@ -4,11 +4,8 @@ header{
 section{
     background-color: #262324;
     height: 100vh;
-    
 }
-#title_name1{
-    text-align:center;
-}
+
 #main_section{
     position: relative;
     top: 25%;
@@ -19,7 +16,49 @@ section{
 }
 .card{
     width: 25rem;
-    background-color: #262324;
 }
 
+.bold{
+    font-weight: bold;
+}
 
+.header-titles{
+    text-decoration: none; 
+    color: white;
+}
+a.header-titles:hover{
+    text-decoration: none;
+}
+#mainpg-left-card{
+    border-width: thick; 
+    border-color: black; 
+    background-color: #262324; 
+    border-radius: 1rem;
+}
+#mainpg-right-card{
+    border-width: thick; 
+    border-color: black; 
+    background-color: #262324; 
+    border-radius: 1rem;
+}
+.mainpg-input{
+    margin-left: 1rem; 
+    margin-top: 1rem;  
+    border-radius: 13px; 
+    border-width: thin; 
+    height: 2rem; 
+    background: #C4C4C4;
+}
+#mainpg-regno-input{
+    margin-left: 1rem; 
+    border-radius: 13px;
+    border-width: thin; 
+    height: 2rem; 
+    background: #C4C4C4;
+}
+#ChooseBlock-bt{
+    width: min-content; 
+    background-color: #EF6568; 
+    border-color: #EF6568; 
+    color: white;
+}
